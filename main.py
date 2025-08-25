@@ -11,7 +11,7 @@ def get_book_text(filepath=sys.argv[1]):
         return file_contents
 
 def main():
-    file_contents = get_book_text(filepath)
+    file_contents = get_book_text(filepath=sys.argv[1])
     num_words = get_num_words(file_contents)
     char_count = get_char_count(file_contents)
     sorted_chars = sorted_dict(char_count)
