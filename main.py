@@ -23,6 +23,8 @@ def main():
     for item in sorted_chars:
         if item["char"].isalpha():
             print(f"{item['char']}: {item['num']} ")
+    print("Thank you for using BookBot!")
+
     
 main()
         
